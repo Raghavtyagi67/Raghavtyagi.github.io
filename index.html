@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Library - Free Public Domain Books</title>
+    <meta name="description" content="A beautiful, free online library of public-domain classics from Project Gutenberg.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Open Library</h1>
+        <p class="subtitle">Free Public Domain Classics • Powered by Project Gutenberg</p>
+    </div>
+</header>
+
+<nav id="navbar">
+    <div class="container">
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#classics">Classics</a></li>
+            <li><a href="#fiction">Fiction</a></li>
+            <li><a href="#mystery">Mystery</a></li>
+            <li><a href="#scifi">Science Fiction</a></li>
+            <li><a href="#fantasy">Fantasy</a></li>
+            <li><a href="#philosophy">Philosophy</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#poetry">Poetry</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <!-- Home Section -->
+    <section id="home" class="genre-section active">
+        <div class="container">
+            <h2>Welcome to Open Library</h2>
+            <p>Browse hundreds of completely free, public-domain books. All books are legally downloadable from <strong>Project Gutenberg</strong>.</p>
+            <div class="book-grid" id="home-grid"></div>
+        </div>
+    </section>
+
+    <!-- Genre Sections (will be filled by JavaScript) -->
+    <section id="classics" class="genre-section"><div class="container"><h2>Classics</h2><div class="book-grid"></div></div></section>
+    <section id="fiction" class="genre-section"><div class="container"><h2>Fiction</h2><div class="book-grid"></div></div></section>
+    <section id="mystery" class="genre-section"><div class="container"><h2>Mystery & Detective</h2><div class="book-grid"></div></div></section>
+    <section id="scifi" class="genre-section"><div class="container"><h2>Science Fiction</h2><div class="book-grid"></div></div></section>
+    <section id="fantasy" class="genre-section"><div class="container"><h2>Fantasy</h2><div class="book-grid"></div></div></section>
+    <section id="philosophy" class="genre-section"><div class="container"><h2>Philosophy</h2><div class="book-grid"></div></div></section>
+    <section id="history" class="genre-section"><div class="container"><h2>History</h2><div class="book-grid"></div></div></section>
+    <section id="poetry" class="genre-section"><div class="container"><h2>Poetry</h2><div class="book-grid"></div></div></section>
+</main>
+
+<footer>
+    <div class="container">
+        <p><strong>Open Library</strong> • All books are in the public domain and hosted by <a href="https://www.gutenberg.org" target="_blank">Project Gutenberg</a></p>
+        <p>Built as an educational project • 2025</p>
+
+        <div class="feedback">
+            <h3>Feedback</h3>
+            <p>
+                <a href="mailto:428380@aaps.k12.mi.us">Click here to email feedback</a><br>
+                <a href="tel:7343520980">Click here to text feedback → 734-352-0980</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
